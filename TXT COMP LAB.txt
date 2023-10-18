@@ -1,0 +1,67 @@
+name:muhammad uzair
+roll no:477228
+sec:A
+                               TASK  01
+        inc#lude <iostream>
+using namespace std;
+int main(){
+	// the sum of first 10 natural number
+	int i,add;
+	for(i=0; i<11; i++){
+		cout<<"enter a nat number=";
+		cin>>i;
+		add=i+add;
+		
+	}
+	cout<<"the sum of first 10 natural numbers ="<<add<<endl;
+		return 0;
+}
+                              TASK 02
+    
+      #include <iostream>
+using namespace std;
+int main(){
+	int x,table;
+	cout<<"select a num for table=";
+	cin>>x;
+	for (int a=0;a<11;a++){
+		table=x*a;
+		cout<<x<<"x"<<a<<"="<<table<<endl;
+	}
+	return 0;
+}
+                             TASK 03
+
+      #include <iostream>
+using namespace std;
+int main(){
+int f,num;
+cout<<"enter a non negative num for factorial=";
+cin>>f;
+num=1;
+for (int x=f; x>0;x--){
+	num=x*num;
+}
+cout<<"factorial of given num is ="<<num<<endl;
+	return 0;
+}
+
+                             TASK 04
+
+     #include <iostream>
+using namespace std;
+int main(){
+	int num1,num2,rep,num3;
+	cout<<"enter first two numbers of sequence "<<endl;
+	cin>>num1;
+	cin>>num2;
+	cout<<"enter the repitation in sequence "<<endl;
+	cin>>rep;
+	for (int x=0;x<rep;x++){
+		num3=num1+num2;
+		cout<<num1<<" "<<num2<<" "<<num3<<" ";
+		num1=num3+num2;
+		num2=num1+num3;
+	}
+	return 0;
+}
